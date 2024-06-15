@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(180, 93, 59, 0.789);
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 231, 231);
+    width: 70%;
+    height: 20vh;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 5%;
+}
+.titulo{
+    margin-top: 5%;
+    text-decoration: underline;
+}
+.enlace{
+    margin-top: 10%;
+}
+.enlace a{
+    text-decoration: none;
+    color: rgb(107, 56, 37);
+}
